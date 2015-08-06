@@ -1,10 +1,12 @@
-# CS1710 - Assignment 3
+# CS1710 - Assignment 5
 
 ## Overview
 
-Answer to "Part I: Tracing" can be found in `PartI/Trace.txt`.
+Answers to "Part I: Tracing" can be found in `PartI/*.txt` or `PartI/*.md`.
 
 Answers to "Part II: Programming Exercises" can be found in `PartII/src/*.java`.
+
+*Note: An updated .zip can always be found at [GitHub](https://github.com/Manouchehri/CS1710-Assignment5/archive/master.zip).*
 
 ## Exporting
 
