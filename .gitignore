@@ -2,7 +2,7 @@
 *.swp
 
 # Property of Memorial University, do not track.
-/1710_A3_S15_DISTANCE.pdf
+/1710_A5_S15_DISTANCE.pdf
 /PartI/src/
 
 # Don't really need to include the Intellij project files.
