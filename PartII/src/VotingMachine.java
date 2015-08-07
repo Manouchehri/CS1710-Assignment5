@@ -7,4 +7,20 @@
  *         Page 407, Question P8.10
  */
 public class VotingMachine {
+    private int demoVotes, repubVotes;
+
+    public void clearVotes() {
+        this.demoVotes = 0;
+        this.repubVotes = 0;
+    }
+    public void voteDemo() {
+        this.demoVotes++;
+    }
+    public void voteRepub() {
+        this.repubVotes++;
+    }
+    public void tally() {
+        System.out.println("Democrat Votes at " + demoVotes +
+                ", Republican votes at " + repubVotes);
+    }
 }

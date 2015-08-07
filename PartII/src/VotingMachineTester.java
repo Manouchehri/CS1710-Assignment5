@@ -6,6 +6,11 @@
  */
 public class VotingMachineTester {
     public static void main(String[] args) {
-
+        VotingMachine tester = new VotingMachine();
+        tester.voteDemo();
+        tester.voteRepub();
+        tester.tally();
+        tester.clearVotes();
+        tester.tally();
     }
 }
