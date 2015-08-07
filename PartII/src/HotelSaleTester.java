@@ -1,3 +1,12 @@
+/**
+ * @author David Manouchehri
+ *         Created on 8/6/15 at 4:50 PM.
+ *         All content is under the MIT License unless otherwise specified.
+ *         See LICENSE.txt for details.
+ *
+ *         Page 356, Question P7.16
+ */
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -31,13 +40,13 @@ public class HotelSaleTester {
                 fileMap.get(sale.getService()).add(sale);
             }
 
-            System.out.println(fileMap);
 
-            for(String a : fileMap.keySet()) {
+            System.out.println("TOTALS: ");
+            for(String saleType : fileMap.keySet()) {
                 double totalMoney = 0;
-                for(HotelSale b : fileMap.get(a))
-                    totalMoney += b.getIncome();
-                System.out.println(a.trim() + " : " + totalMoney);
+                for(HotelSale singleSale : fileMap.get(saleType))
+                    totalMoney += singleSale.getIncome();
+                System.out.println(saleType + ": $" + totalMoney);
             }
         }
         catch (FileNotFoundException e) {
